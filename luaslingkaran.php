@@ -9,6 +9,11 @@
             $this->jari = $isiJari;
         }
 
+        public function __destruct() {
+            echo "<br/>";
+            echo "gw mah sigma";
+        }
+
         public function tampil($nama = 'ban') {
             $rumus = luaslingkaran::phi * $this->jari * $this->jari;
             echo "Lingkaran {$nama} hasilnya adalah: {$rumus} ";
