@@ -1,5 +1,7 @@
 <?php
 
+namespace App\Math; //pasang namespace
+
     class luaslingkaran {
 
         public const phi = 3.14;
@@ -25,6 +27,3 @@
         }
     }
 
-$lingkaran = new luaslingkaran(7);
-$lingkaran->tampil('roda');
-luaslingkaran::testing();
